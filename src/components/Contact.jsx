@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 function Contact({name, avatar, online}) {
     return (
         <div className="Contact">
-            <img className="avatar" src={avatar} alt="Yacine MEHAIGNI">
+            <img className="avatar" src={avatar} alt="photo">
             </img>
             <div>
                 <p className="name">{name}</p>
